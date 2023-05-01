@@ -37,8 +37,6 @@ Die Übungen bauen immer aufeinander auf. Aber keine Angst! Für den Fall, dass 
 
 ![CSS Syntax](./assets/excal-css-syntax.png)
 
-Source: [http://vetbossel.in/beginner-tutorial-website/css/css_syntax.html](http://vetbossel.in/beginner-tutorial-website/css/css_syntax.html)
-
 * Der **Selektor** identifiziert HTML-Elemente, auf welchen die **Deklarationen** angewendet werden sollen.
 * Danach folgt der **Deklarationsblock**, darin befinden sich eine oder mehrere **Deklarationen**
 * Eine Deklaration besteht aus einer **Property** und einer **Value**, getrennt mit einem **Doppelpunkt**
