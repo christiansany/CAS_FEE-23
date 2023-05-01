@@ -35,7 +35,7 @@ Die Übungen bauen immer aufeinander auf. Aber keine Angst! Für den Fall, dass 
 
 ### Syntax
 
-![CSS Syntax](./assets/css-syntax.png)
+![CSS Syntax](./assets/excal-css-syntax.png)
 
 Source: [http://vetbossel.in/beginner-tutorial-website/css/css_syntax.html](http://vetbossel.in/beginner-tutorial-website/css/css_syntax.html)
 
@@ -536,7 +536,7 @@ Die Spezifität ist eine Nummer, die anhand des Selektors berechnet wird. Je hö
 3. Klassen, Attribute und Pseudoklassen
 4. Elemente und Pseudoelemente (niedrigste Spezifität)
 
-![Spezifität](./assets/specificity.svg)
+![Spezifität](./assets/excal-specificity.png)
 
 **Beispiele**
 
@@ -757,7 +757,7 @@ Zeit: ~ 10 min
 
 ## Box-Model, Margins und Paddings
 
-![Box-Model](./assets/box-model.jpg)
+![Box-Model](./assets/excal-box-model.png)
 
 * Jede Box hat einen **Content-Bereich** und optionales umgebendes padding, border und margin
 * Der Content-Bereich wird über `height` und `width` beeinflusst

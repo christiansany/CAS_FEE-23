@@ -323,7 +323,7 @@ Die aktuelle Browserlandschaft der meistbenutzten Browser sieht so aus:
 > **Note:** Dies ist keine vollständige Liste, sondern beinhaltet nur die meist genutzten Browser
 
 <details>
-  <summary>Browserentwicklung der letzten 13 Jahre</summary>
+  <summary>Browserentwicklung der letzten 14 Jahre</summary>
 
 **2009 - 2023**
 ![Browser Usage Statistics - 2009-2023](./assets/browser-stats-2009-2023.png)
