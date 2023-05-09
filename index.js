@@ -21,14 +21,14 @@ const mdToPdfProxy = async (from, to) => {
   );
 
   // 01_HTML_CSS_Basics
-  // await mdToPdfProxy(
-  //   "./01_HTML_CSS_Basics/fortgeschrittene-basics-html.md",
-  //   "./01_HTML_CSS_Basics/dist/fortgeschrittene-basics-html.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./01_HTML_CSS_Basics/fortgeschrittene-basics-css.md",
-  //   "./01_HTML_CSS_Basics/dist/fortgeschrittene-basics-css.pdf"
-  // );
+  await mdToPdfProxy(
+    "./01_HTML_CSS_Basics/fortgeschrittene-basics-html.md",
+    "./01_HTML_CSS_Basics/dist/fortgeschrittene-basics-html.pdf"
+  );
+  await mdToPdfProxy(
+    "./01_HTML_CSS_Basics/fortgeschrittene-basics-css.md",
+    "./01_HTML_CSS_Basics/dist/fortgeschrittene-basics-css.pdf"
+  );
 
   // 02_HTML_CSS_Tools
   // await mdToPdfProxy(
