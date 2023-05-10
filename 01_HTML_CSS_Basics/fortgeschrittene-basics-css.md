@@ -371,7 +371,7 @@ Mit `grid-template-rows` können wir die Höhen der Rows steuern. Dies funktioni
 
 Öffne diese [**CodeSandbox**](https://codesandbox.io/s/bnydy) als Startpunkt.
 
-- [ ] Verwende **flexbox** oder **CSS Grid** um deine vorhandene ToDo-App zu strukturieren
+- [ ] Verwende **Flexbox** oder **CSS Grid** um deine vorhandene ToDo-App zu strukturieren
   - [ ] Füge zur rechten Seite vom `<main>`-Element noch eine Sidebar (`<aside>`) ein, um einen kurzen Text darzustellen
   - [ ] Strukturiere das Formular so, dass es für die User besser bedienbar ist.
 
@@ -691,7 +691,7 @@ Mit Animationen können mehrere Sachen erzielt werden:
 
 * **Informativ**: Informationen können besser wiedergegeben werden
 * **Fokus**: Der Fokus des Users kann auf ein gezieltes Element gezogen werden
-* **Epxressiv**: Aktionen des Users können unterstrichen werden, damit dieser ein Feedback zu seinen Aktionen erhält
+* **Expressiv**: Aktionen des Users können unterstrichen werden, damit dieser ein Feedback zu seinen Aktionen erhält
 
 Im Web gibt es zwei Möglichkeiten wie Elemente animiert werden können:
 
