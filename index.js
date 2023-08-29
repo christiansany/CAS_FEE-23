@@ -31,18 +31,18 @@ const mdToPdfProxy = async (from, to) => {
   );
 
   // 02_HTML_CSS_Tools
-  // await mdToPdfProxy(
-  //   "./02_HTML_CSS_Tools/responsive-design.md",
-  //   "./02_HTML_CSS_Tools/dist/responsive-design.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./02_HTML_CSS_Tools/tooling.md",
-  //   "./02_HTML_CSS_Tools/dist/tooling.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./02_HTML_CSS_Tools/frontend-frameworks.md",
-  //   "./02_HTML_CSS_Tools/dist/frontend-frameworks.pdf"
-  // );
+  await mdToPdfProxy(
+    "./02_HTML_CSS_Tools/responsive-design.md",
+    "./02_HTML_CSS_Tools/dist/responsive-design.pdf"
+  );
+  await mdToPdfProxy(
+    "./02_HTML_CSS_Tools/tooling.md",
+    "./02_HTML_CSS_Tools/dist/tooling.pdf"
+  );
+  await mdToPdfProxy(
+    "./02_HTML_CSS_Tools/frontend-frameworks.md",
+    "./02_HTML_CSS_Tools/dist/frontend-frameworks.pdf"
+  );
 
   // 03_HTML_CSS_Challenges
   // await mdToPdfProxy(
