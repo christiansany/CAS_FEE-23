@@ -45,24 +45,24 @@ const mdToPdfProxy = async (from, to) => {
   );
 
   // 03_HTML_CSS_Challenges
-  // await mdToPdfProxy(
-  //   "./03_HTML_CSS_Challenges/js-architecture.md",
-  //   "./03_HTML_CSS_Challenges/dist/js-architecture.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./03_HTML_CSS_Challenges/images.md",
-  //   "./03_HTML_CSS_Challenges/dist/images.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./03_HTML_CSS_Challenges/vuejs-miniintro.md",
-  //   "./03_HTML_CSS_Challenges/dist/vuejs-miniintro.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./03_HTML_CSS_Challenges/vue-compound-components.md",
-  //   "./03_HTML_CSS_Challenges/dist/vue-compound-components.pdf"
-  // );
-  // await mdToPdfProxy(
-  //   "./03_HTML_CSS_Challenges/react-compound-components.md",
-  //   "./03_HTML_CSS_Challenges/dist/react-compound-components.pdf"
-  // );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/js-architecture.md",
+    "./03_HTML_CSS_Challenges/dist/js-architecture.pdf"
+  );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/images.md",
+    "./03_HTML_CSS_Challenges/dist/images.pdf"
+  );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/vuejs-miniintro.md",
+    "./03_HTML_CSS_Challenges/dist/vuejs-miniintro.pdf"
+  );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/vue-compound-components.md",
+    "./03_HTML_CSS_Challenges/dist/vue-compound-components.pdf"
+  );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/react-compound-components.md",
+    "./03_HTML_CSS_Challenges/dist/react-compound-components.pdf"
+  );
 })();
