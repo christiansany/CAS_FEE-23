@@ -65,4 +65,8 @@ const mdToPdfProxy = async (from, to) => {
     "./03_HTML_CSS_Challenges/react-compound-components.md",
     "./03_HTML_CSS_Challenges/dist/react-compound-components.pdf"
   );
+  await mdToPdfProxy(
+    "./03_HTML_CSS_Challenges/loadingbehaviours.md",
+    "./03_HTML_CSS_Challenges/dist/loadingbehaviours.pdf"
+  );
 })();
