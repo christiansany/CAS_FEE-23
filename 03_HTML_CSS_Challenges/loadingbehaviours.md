@@ -157,7 +157,7 @@ document.querySelectorAll(".page").forEach(page => {
 
 ### Lazy Loading in action
 
-Mit dem IntersectionObserver ist es jetzt möglich, Lazy Loading zu implementieren. Wir können damit verschiedene Ressourcen wie JavaScript-Module, Daten oder auch Bilder erst dann laden, wenn sie gebraucht werden. Dies reduziert die initiale Ladezeit und entlastet auch den Main-Thread, der anfangs weniger Ressourcen verarbeiten muss. All dies verbessert die Benutzerfreundlichkeit.
+Mit dem `IntersectionObserver` ist es jetzt möglich, Lazy Loading zu implementieren. Wir können damit verschiedene Ressourcen wie JavaScript-Module, Daten oder auch Bilder erst dann laden, wenn sie gebraucht werden. Dies reduziert die initiale Ladezeit und entlastet auch den Main-Thread, der anfangs weniger Ressourcen verarbeiten muss. All dies verbessert die Benutzerfreundlichkeit.
 
 **Demo** 🤯
 
@@ -165,7 +165,7 @@ Mit dem IntersectionObserver ist es jetzt möglich, Lazy Loading zu implementier
 
 ## Lazy Loading in React
 
-In React, kann man mit `lazy` einen Komponenten dann Lazen, wenn er gerendert wird. Anstelle den Komponenten direkt zu importieren mit `import { LazyComponent } from './LazyComponent.tsx'`, erstellen wir mit `lazy` einen neuen Komponenten, der einen dynamischen import auf unseren `LazyComponent` hat.
+In React, kann man mit `lazy` einen Komponenten dann laden, wenn er gerendert wird. Anstelle den Komponenten direkt zu importieren mit `import { LazyComponent } from './LazyComponent.tsx'`, erstellen wir mit `lazy` einen neuen Komponenten, der einen dynamischen import auf unseren `LazyComponent` macht.
 
 ```tsx
 import { lazy } from "react";

@@ -549,6 +549,7 @@ Dem Template kann dann folgende Beispielspayload übergeben werden um den daruaf
 Wenn das Aspect-Ratio des Bildes nicht ändert, müssen wir kein `<picture>`-Element benutzen.
 
 **Config**
+
 ```js
 {
   classes: [],
@@ -572,6 +573,7 @@ Wenn das Aspect-Ratio des Bildes nicht ändert, müssen wir kein `<picture>`-Ele
 ```
 
 **Output**
+
 ```html
 <span class="ppm-image ppm-image--fixed-demo" data-init="image">
   <span class="ppm-image__loader"></span>
@@ -594,6 +596,9 @@ Wenn das Aspect-Ratio des Bildes nicht ändert, müssen wir kein `<picture>`-Ele
 </details>
 
 ### Layzloading
+
+> Dieses Lazyloading wurde im 2019 entwickelt, heutzutage haben wir mit `loading="lazy"` ein sehr einfache API, die wir nutzen können um Bilder lazy zu laden.  
+> Siehe dazu auch [Browser-level image lazy loading for the web](https://web.dev/browser-level-image-lazy-loading/)
 
 Lazyloading ermöglich es uns, dass die Bilder nur dann geladen werden, wenn diese auf wirklich benötigt werden.  
 Wenn z.B. ein Bild ausserhalb des Viewports ist, sollte es nicht geladen werden.
